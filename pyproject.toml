@@ -19,9 +19,6 @@ dependencies = [
     "uvicorn>=0.53.0",
 ]
 
-[project.scripts]
-fast-api-orm-alebic = "fast_api_orm_alebic:main"
-
 [build-system]
 requires = ["uv_build>=0.12.1,<0.13.0"]
 build-backend = "uv_build"
